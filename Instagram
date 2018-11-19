@@ -1,0 +1,14 @@
+require 'watir' # Crawler
+require 'pry' # Ruby REPL
+require 'rb-readline' # Ruby IRB
+require 'awesome_print' # Console output
+require_relative 'credentials' # Pulls in login credentials from credentials.rb
+
+username = lukasdanke
+password = Boi1234
+users = ["josephineskriver", "theweeknd", "kendalljenner", "karliekloss"]
+follow_counter = 500000
+unfollow_counter = 0
+MAX_UNFOLLOWS = 0
+start_time = Time.now
+
